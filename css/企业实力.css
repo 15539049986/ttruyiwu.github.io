@@ -1,0 +1,190 @@
+.container{
+	width: 85%;
+	margin: auto;
+}
+.bgimg{
+	background: url(../img/企业实力/page_about_two_bj.jpg);
+	position: fixed;
+	z-index: -999;
+	background-size: 100% 100%;
+	width: 100%;
+	height: 100%;
+}
+.xin{
+	color: black;
+}
+.xin:hover{
+	text-decoration: none;
+	color: orange;
+}
+.navbar-default .navbar-nav>li:nth-child(2)>a {
+    color: orange;
+}
+.navbar-default .navbar-nav>li>a:hover {
+    color: orange;
+}
+.dxia{
+	display: none;
+}
+.dxia>ul>li:nth-child(1){
+	margin-top: -55px;
+}
+.dian{
+	right: 0px;
+}
+@media  (max-width: 768px) {
+	.fi{
+		position: fixed;
+		top: 0px;
+		z-index: 99;
+	}
+	.box{
+		margin-top: 100px;
+	}
+	.a{
+		display: none;
+	}
+	.nav-ul{
+		display: none;
+	}
+	.nav-ul>ul{
+		position: absolute;
+		top: 0px;
+		right: 10px;
+		background: indianred;
+		width: 0px;
+		z-index: 111;
+	}
+	.nav-ul>ul>li{
+		border-bottom: 1px solid white;
+		color: white;
+	}
+	.dxia{
+		position: absolute;
+		top: 0px;
+		right: 0px;
+		width: 0px;
+		background: coral;
+		height: 100%;
+		z-index: 111;
+		display: none;
+	}
+	.dxia>ul>li{
+		list-style: none;
+		border-bottom: 1px solid white;
+		color: white;
+		padding: 11px;
+	}
+	.sp1{
+		position: relative;
+		display: inline-block;
+		font-size: 50px;
+		color: orange;
+		left: -40px;
+		width: 40px;
+		height: 40px;
+		top: -16px;
+		cursor: pointer;
+		background: white;
+	}
+}
+.nav-ul>ul>li:nth-child(1)>a{
+	padding-left: 0px;
+}
+.nav-ul>ul>li>a{
+	font-size: 15px;
+}
+.nav-ul>ul>li>div{
+	display: none;
+	position: absolute;
+	top: 50px;
+	z-index: 22;
+	background: coral;
+	width: 120px;
+	color: white;
+}
+.nav-ul>ul>li:hover>div{
+	display: block;
+}
+.nav-ul>ul>li>div>p{
+	padding: 5px;
+	margin: 0px;
+}
+.nav-ul>ul>li>div>p:hover{
+	background: chocolate;
+}
+.bh{
+	margin-top: 70px;
+}
+@media (max-width:1000px ) {
+	.bh{
+		margin-top: 10px;
+	}
+}
+.s1>p{
+	width: 60%;
+	margin-left: 20%;
+}
+.s1d{
+	width: 100%;
+	padding-bottom: 80px;
+}
+.s1d>ul{
+	list-style: none;
+}
+.s1d>ul>li{
+	text-align: center;
+	color: white;
+}
+.s2,.s3{
+	background: white;
+}
+.s2>div,.s3>div{
+	width: 65%;
+	margin: auto;
+}
+.s2>div>h1,.s3>div>h1{
+	padding-top:67px ;
+}
+.s3>div{
+	margin-top: -20px;
+}
+.s4{
+	background: gainsboro;
+	margin-top: -20px;
+}
+.s4>div{
+	width: 65%;
+	margin: auto;
+}
+.s4>div>h1{
+	padding-top: 67px;
+}
+.img1:hover>.img{
+	display: block;
+}
+.img{
+	position: absolute;
+	top: -118px;
+	right: 30px;
+	display: none;
+}
+.fan{display: none;}
+.pp>p:hover{
+	color: orange;
+	cursor: pointer;
+}
+@media  (max-width: 768px){
+	.d1{
+		display: none;
+	}
+	.colp{
+		text-align: left;
+	}
+}
+@media  (max-width: 1000px){
+	.d{
+		display: none;
+	}
+	
+}

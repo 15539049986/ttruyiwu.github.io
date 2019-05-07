@@ -1,0 +1,289 @@
+.container{
+	width: 85%;
+	margin: auto;
+}
+.xin{
+	color: black;
+}
+.xin:hover{
+	text-decoration: none;
+	color: orange;
+}
+.navbar-default .navbar-nav>li:nth-child(1)>a {
+    color: orange;
+}
+.navbar-default .navbar-nav>li>a:hover {
+    color: orange;
+}
+.dxia{
+	display: none;
+}
+.dxia>ul>li:nth-child(1){
+	margin-top: -55px;
+}
+.dian{
+	right: 0px;
+}
+.ryh{
+	padding-top: 64px;
+	padding-left: 30px;
+}
+.ryh1{
+	padding-top: 64px;
+}
+.ryp1{
+	padding-bottom: 69px;
+	text-decoration: underline;
+}
+.ryp{
+	padding-left: 30px;
+	padding-bottom: 59px;
+	text-decoration: underline;
+}
+@media  (max-width: 1000px){
+	.shuxian{
+		display: none;
+	}
+	.ryh,.ryh1{
+		padding-top: 92px;
+	}
+	.ryp,.ryp1{
+		padding-bottom: 56px;
+	}
+	.b>div>h3,.b2>div>h3{
+		font-size: 20px;
+	}
+	.cx{
+		display: none;
+	}
+}
+@media  (max-width: 768px) {
+	.fi{
+		position: fixed;
+		top: 0px;
+		z-index: 99;
+	}
+	.box{
+		margin-top: 100px;
+	}
+	.a{
+		display: none;
+	}
+	.nav-ul{
+		display: none;
+	}
+	.nav-ul>ul{
+		position: absolute;
+		top: 0px;
+		right: 10px;
+		background: indianred;
+		width: 0px;
+		z-index: 111;
+	}
+	.nav-ul>ul>li{
+		border-bottom: 1px solid white;
+		color: white;
+	}
+	.dxia{
+		position: absolute;
+		top: 0px;
+		right: 0px;
+		width: 0px;
+		background: coral;
+		height: 100%;
+		z-index: 111;
+		display: none;
+	}
+	.dxia>ul>li{
+		list-style: none;
+		border-bottom: 1px solid white;
+		color: white;
+		padding: 11px;
+	}
+	.sp1{
+		position: relative;
+		display: inline-block;
+		font-size: 50px;
+		color: orange;
+		left: -40px;
+		width: 40px;
+		height: 40px;
+		top: -16px;
+		cursor: pointer;
+		background: white;
+	}
+	.ryrt{
+		display: none;
+	}
+	.ryh,.ryh1{
+		padding-top: 30px;
+	}
+	.ryp,.ryp1{
+		padding-bottom: 20px;
+	}
+	.b>div>h3,.b2>div>h3{
+		font-size: 13px;
+	}
+}
+.nav-ul>ul>li:nth-child(1)>a{
+	padding-left: 0px;
+}
+.nav-ul>ul>li>a{
+	font-size: 15px;
+}
+.nav-ul>ul>li>div{
+	display: none;
+	position: absolute;
+	top: 50px;
+	z-index: 22;
+	background: coral;
+	width: 120px;
+	color: white;
+}
+.nav-ul>ul>li:hover>div{
+	display: block;
+}
+.nav-ul>ul>li>div>p{
+	padding: 5px;
+	margin: 0px;
+}
+.nav-ul>ul>li>div>p:hover{
+	background: chocolate;
+}
+.b>div{
+	position: absolute;
+	top:76px;
+	left: 50px;
+}
+.b:hover>div,.b1:hover>div,.b2:hover>div{
+	background: rgba(255,255,255,0.4);
+}
+.h{
+	border-bottom: 2px solid gray;
+	padding-bottom: 12px;
+	margin-top: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.hh{
+	margin-top: 0px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.b1>div{
+	position: absolute;
+	top:127px;
+	left: 54px;
+}
+.b2>div{
+	position: absolute;
+	top:47px;
+	left: 94px;
+}
+.b>p,.b1>p,.b2>p{
+	overflow: hidden;
+}
+.se{
+	height: 40px;
+	width: 213px;
+}
+.ry{
+	background: rgba(242,223,206,0.5);
+}
+.ry:hover{
+	background: rgba(242,223,206,1);
+}
+.ry:hover>.ryp{
+	color: orangered;
+}
+.ck,.ck1{
+	padding: 15px 70px;
+	display: inline-block;
+	position: absolute;
+	top: 50%;
+	left:-150px;
+	margin-left: -80px;
+	margin-top: -30px;
+	color: orangered;
+	background: rgba(255,255,255,0.8);
+}
+.hzz,.hz,.hz1,.hz2,.hzz2{
+	overflow: hidden;
+}
+@media (max-width: 768px) {
+	.ck{
+		padding: 5px 30px;
+		display: inline-block;
+		position: absolute;
+		top: 50%;
+		left:-320px;
+		margin-left: 100px;
+		margin-top: -30px;
+		color: orangered;
+		background: rgba(255,255,255,0.8);
+	}
+	.ck1{
+		padding: 15px 70px;
+		display: inline-block;
+		position: absolute;
+		top: 50%;
+		left:-150px;
+		margin-left: -80px;
+		margin-top: -30px;
+		color: orangered;
+		color: orangered;
+		background: rgba(255,255,255,0.8);
+	}
+	.b1>div>h3{
+		font-size: 13px;
+	}
+}
+@media  (max-width: 1000px){
+	.shuxian{
+		display: none;
+	}
+	.d{
+		display: none;
+	}
+	
+}
+@media  (max-width: 768px){
+	.d1{
+		display: none;
+	}
+	.colp{
+		text-align: left;
+	}
+}
+.ry1{
+	background: rgba(212,213,212,0.5);
+}
+.ry1:hover{
+	background: rgba(212,212,212,1);
+}
+.ry1:hover>.ryp,.ry1:hover>.ryp1{
+	color: orangered;
+}
+.ry2{
+	background: rgba(241,242,244,0.5);
+}
+.ry2:hover{
+	background: rgba(241,242,244,1);
+}
+.ry2:hover>.ryp1{
+	color: orangered;
+}
+.img1:hover>.img{
+	display: block;
+}
+.img{
+	position: absolute;
+	top: -118px;
+	right: 30px;
+	display: none;
+}
+.fan{display: none;}
+.pp>p:hover{
+	color: orange;
+	cursor: pointer;
+}

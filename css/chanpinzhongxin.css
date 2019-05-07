@@ -1,0 +1,176 @@
+.container{
+	width: 85%;
+	margin: auto;
+}
+.xin{
+	color: black;
+}
+.xin:hover{
+	text-decoration: none;
+	color: orange;
+}
+.navbar-default .navbar-nav>li:nth-child(3)>a {
+    color: orange;
+}
+.navbar-default .navbar-nav>li>a:hover {
+    color: orange;
+}
+.dxia{
+	display: none;
+}
+.dxia>ul>li:nth-child(1){
+	margin-top: -55px;
+}
+.dian{
+	right: 0px;
+}
+@media  (max-width: 768px) {
+	.fi{
+		position: fixed;
+		top: 0px;
+		z-index: 99;
+	}
+	.box{
+		margin-top: 100px;
+	}
+	.a{
+		display: none;
+	}
+	.nav-ul{
+		display: none;
+	}
+	.nav-ul>ul{
+		position: absolute;
+		top: 0px;
+		right: 10px;
+		background: indianred;
+		width: 0px;
+		z-index: 111;
+	}
+	.nav-ul>ul>li{
+		border-bottom: 1px solid white;
+		color: white;
+	}
+	.dxia{
+		position: absolute;
+		top: 0px;
+		right: 0px;
+		width: 0px;
+		background: coral;
+		height: 100%;
+		z-index: 111;
+		display: none;
+	}
+	.dxia>ul>li{
+		list-style: none;
+		border-bottom: 1px solid white;
+		color: white;
+		padding: 11px;
+	}
+	.sp1{
+		position: relative;
+		display: inline-block;
+		font-size: 50px;
+		color: orange;
+		left: -40px;
+		width: 40px;
+		height: 40px;
+		top: -16px;
+		cursor: pointer;
+		background: white;
+	}
+}
+.nav-ul>ul>li:nth-child(1)>a{
+	padding-left: 0px;
+}
+.nav-ul>ul>li>a{
+	font-size: 15px;
+}
+.nav-ul>ul>li>div{
+	display: none;
+	position: absolute;
+	top: 50px;
+	z-index: 22;
+	background: coral;
+	width: 120px;
+	color: white;
+}
+.nav-ul>ul>li:hover>div{
+	display: block;
+}
+.nav-ul>ul>li>div>p{
+	padding: 5px;
+	margin: 0px;
+}
+.nav-ul>ul>li>div>p:hover{
+	background: chocolate;
+}
+/*中间*/
+.sa{
+	width: 100%;
+	background: url(../img/chanpinzhongxin/page_pro_list_left_top.jpg)no-repeat;
+	background-size: 100% 100%;
+	padding: 1px 21px;
+}
+.zsa>p{
+	width: 100%;
+	margin: 0px;
+	background: #EBEBEB;
+	padding: 10px;
+	border-bottom: 1px solid white;
+}
+.zsa>p:hover{
+	color: #EA8715;
+}
+.sa1{
+	background: url(../img/chanpinzhongxin/page_pro_list_left_zong.jpg)no-repeat;
+	background-size: 100% 100%;
+	margin-top: 15px;
+}
+.sa1>p{
+	margin: 0px;
+}
+.sa2{
+	margin-top: 15px;
+	background: #EBEBEB;
+}
+@media (max-width: 1000px) {
+	.sa1,.sa2{
+		display: none;
+	}
+	.zsa{
+		display: none;
+	}
+}
+.zr-1-1{
+	background: rgba(071,087,190,0.7);
+}
+/*底部*/
+.img1:hover>.img{
+	display: block;
+}
+.img{
+	position: absolute;
+	top: -118px;
+	right: 30px;
+	display: none;
+}
+.fan{display: none;}
+.pp>p:hover{
+	color: orange;
+	cursor: pointer;
+}
+@media  (max-width: 768px){
+	.d1{
+		display: none;
+	}
+	.colp{
+		text-align: left;
+	}
+}
+@media  (max-width: 1000px){
+	.d{
+		display: none;
+	}
+	
+}
